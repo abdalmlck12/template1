@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   align-items: center;
+   font-weight: bold;
+   font-size: medium;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+background: url(2bc\ \(2\).png) fixed center no-repeat;
+
+}
+.cont{
+    margin: auto;
+}
+
+.div1{    margin: auto;
+    
+    width: 400px;
+    height: 450px;
+    padding: 5px;; opacity: 0.7;
+    
+    background: white ;
+
+    border-radius: 25px;
+}
+.div1 > input{
+    opacity: 1;
+} 
+h2{font-size:x-large; }
+p,h2{padding: 5px;text-align: center; }
+
+.text1{ border-radius: 15px;
+    padding: 5px;
+border-style: none;   
+border-bottom:2px solid gray;
+height: 45px;
+width: 100%;
+outline: none;
+
+
+}
+.text1:focus{
+    background-color: darkgrey;
+    border: none;
+
+  
+}
+
+a{color: blue;
+    text-decoration: none;
+}
+a:hover{color:cyan;
+}
+
+
+.sign{
+
+    background:cyan;
+    border: none;
+    border-radius: 10px;
+    padding:9px;
+    
+
+}
+.sign:hover{background-color: darkviolet;
+color: rgb(0, 225, 255);}
+
+.rem{
+
+
+}
+</style>
+</head>
+<body >
+    <div class="cont">
+    <div class="div1">
+        <h2 >Sign up</h2>
+        <form method="" action=" ">
+            <p>
+                <input style=" width: 49%; margin-right: 5pxpx;" type="text" class="text1" name="text1" required placeholder="first name" >
+ 
+                <input style=" width: 49%; float: right;" type="text" class="text1" name="text1" required placeholder="last name" >
+               </p>
+               <p>
+                <input type="email" class="text1" name="text1" required placeholder="email" >
+               </p>
+<p>
+ <input type="text" class="text1" name="text1" required placeholder="User ID" >
+</p>
+<p>
+ <input type="password" class="text1" name="tex1" required  placeholder="password">
+</p>
+<p>
+    <input type="tel" class="text1" name="tex1" required minlength="10" maxlength="13"  placeholder="Phone Number">
+   </p>
+<P> Gender  <input type="radio" name="gender" id="">male <input type="radio" name="gender" id=""> female</P>   
+ <p style="margin-top: 10px;">already have account? <a href="login.html">log in </a></p>
+
+ <p "><input type="submit" value="Sign up" class="sign"></p>
+
+        </form>
+
+   
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,99 @@
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    background-color: aqua;
+opacity: 0.6;
+    width: 100%;
+    height: 50px;
+}
+nav > a{
+    opacity:1;
+
+
+}
+a{  
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   align-items: center;
+   font-weight: bold;
+   font-size: medium;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+background: url(2bc\ \(2\).png) fixed center no-repeat ;
+
+
+}img{
+position: fixed;
+filter: blur(0px);
+}
+.cont{
+    margin: auto;
+}
+
+.div1{    margin: auto;
+    
+    width: 400px;
+    height: 450px;
+    padding: 5px;; opacity: 0.7;
+    
+    background: white ;
+
+    border-radius: 25px;
+}
+h2{font-size:x-large; }
+p,h2{padding: 5px;text-align: center; }
+
+.text1{ border-radius: 15px;
+    padding: 5px;
+border-style: none;   
+border-bottom:2px solid gray;
+height: 45px;
+width: 100%;
+outline: none;
+
+
+}
+.text1:focus{
+    background-color: darkgrey;
+    border: none;
+
+  
+}
+
+a{color: blue;
+    text-decoration: none;
+}
+a:hover{color:cyan;
+}
+
+
+.sign{
+
+    background:cyan;
+    border: none;
+    border-radius: 10px;
+    padding:9px;
+    
+
+}
+.sign:hover{background-color: darkviolet;
+color: rgb(0, 225, 255);}
+
+.rem{
+
+
+}
